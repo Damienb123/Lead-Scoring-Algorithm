@@ -15,6 +15,7 @@ public class LeadScoringAlgorithm {
     private static final Map<String, Integer> ATTRIBUTE_WEIGHTS = new HashMap<>();
     
     static {
+        // weights can be adjusted as needed
         ATTRIBUTE_WEIGHTS.put("demographics", 5);
         ATTRIBUTE_WEIGHTS.put("engagementLevel", 3);
         ATTRIBUTE_WEIGHTS.put("pastBehavior", 4);
