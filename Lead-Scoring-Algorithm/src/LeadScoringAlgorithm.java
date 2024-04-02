@@ -45,6 +45,13 @@ public class LeadScoringAlgorithm {
         leadAttributes.put("demographics", 8); // Higher value indicates better demographics
         leadAttributes.put("engagementLevel", 6); // Higher value indicates higher engagement level
         leadAttributes.put("pastBehavior", 7); // Higher value indicates positive past behavior
+
+        /*
+             leadAttributes.put("demographics", 4); // Lower value indicates poor demographics
+             leadAttributes.put("engagementLevel", 2); // Lower value indicates decreased engagement level
+             leadAttributes.put("pastBehavior", 2); // Lower value indicates negative past behavior
+        */
+    
         
         // Calculate lead score
         int leadScore = calculateLeadScore(leadAttributes);
