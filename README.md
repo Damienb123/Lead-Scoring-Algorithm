@@ -1,2 +1,8 @@
 # Lead-Scoring-Algorithm
-A lead scoring algorithm that assigns scores to leads based on criteria like demographics, engagement level, and past behavior. Rule-based approaches to predict lead quality are applied.
+
+## Table of Contents
+1. [Overview](#Overview)
+2. [Features](#Features)
+3. [Class Descriptions](#Class-Descriptions)
+4. [Usage](#Usage)
+5. [Example Output](#Example-Output)
